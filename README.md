@@ -17,6 +17,7 @@ The system is engineered using a hierarchical class structure to maximize code o
 
 
 ```text
+
               ┌────────────────────────┐
               │       Main Class       │
               │  (Executes Program &   │
@@ -39,7 +40,7 @@ The system is engineered using a hierarchical class structure to maximize code o
 │ (Child: Implements  │                     │ (Child: Implements  │
 │  Computation logic) │                     │  Computation logic) │
 └─────────────────────┘                     └─────────────────────┘
-
+```
 
 ### 1. Menu Structure (Parent Classes: `Rice_Menu` & `Sweets_Menu`)
 The system hosts a selection of **10 signature items** divided equally across two main dining profiles. To maintain strict data tracking, **30 precise variables** are declared in the parent classes to isolate item pricing, requested quantities, and computed line-item totals:
