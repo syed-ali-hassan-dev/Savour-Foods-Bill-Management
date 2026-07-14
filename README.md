@@ -15,6 +15,8 @@ The architecture is highly structured, using class-level inheritance to separate
 
 The system is engineered using a hierarchical class structure to maximize code organization and enforce clean object-oriented boundaries.
 
+
+```text
               ┌────────────────────────┐
               │       Main Class       │
               │  (Executes Program &   │
